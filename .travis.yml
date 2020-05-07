@@ -1,7 +1,9 @@
 # Medium Tests: Run on all commits/PRs to dev branch
 
 language: c
-
+arch : 
+      - amd64
+      - arm64
 git:
   depth: 1
 
